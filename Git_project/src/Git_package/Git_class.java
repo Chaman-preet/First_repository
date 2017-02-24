@@ -20,7 +20,7 @@ driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 driver.findElement(By.id("lst-ib")).sendKeys("selenium tutorial");
 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 driver.findElement(By.name("btnK")).click();
-System.out.println("Data has been searched");
+System.out.println("Data has been  searched");
 	}
 
 }
